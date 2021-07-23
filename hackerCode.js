@@ -16,17 +16,14 @@
 
 
 
-class Person {
-     constructor (){
-         this.age = (0, "Age is not valid, setting age to 0.." )
-     }
-     *// logic age +1 within year passes function 
-     *// amIOld if age returns  
+let initialAge = -1
+
+class Person {  
+  constructor(initialAge){
+      // assign  iA to A after confirming the argument passed as is not negative; if a negative argument is passed as iA , the constructor should set age to 0 and print Age is not valid, setting age to 0.. 
+      if (initialAge < 0)
+        console.log("Age is not valid, setting age to 0.")
+        this.age = 0
+      }
+    
 }
-
- const newAge = new Person()
-
-console.log(newAge)
-
-
-
