@@ -20,13 +20,23 @@
 
 //My first wrong answer -I'LL TAKE IT!  =) 
 
+//1-Write a Person class 
 function Person(initialAge){
- 
-    if (initialAge <= 1){
-    age = initialAge
-    }
-    else {
-        age = 0
-        console.log("Age is not valid, setting age to 0.")
-    }
-}
+ //3 - and a constructor that takes an integer, initialAge as param
+ //5 - after confirming (5) argument passed as initialAge is not negative; 
+        if (initialAge <= 1){
+          //2 - instance variable, age ,
+          //4 - The constructor must assign initialAge to Age after confirming (5)
+        age = initialAge
+        }
+        //6 if a negative argument is passed as , the constructor should set to and print Age is not valid, setting age to 0
+        else {
+            age = 0
+            console.log("Age is not valid, setting age to 0.")
+        }
+
+       }
+
+ yearPasses: yearPasses(){
+        return ++person.age
+       }
