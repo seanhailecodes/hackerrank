@@ -30,3 +30,16 @@ function print(n){
 print(n)
 
 // results 3, 4, 5, 6, 7, 8, 9, 10
+
+//this actually works the same but much cleaner
+
+var n = 3
+
+function print(n){
+  while ( n < 11){
+      console.log()
+    n++
+  }
+}
+
+print(n)
