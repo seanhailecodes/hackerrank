@@ -128,3 +128,8 @@ scores.forEach((e) => {
  if (e > 65)
  logScore(e)
 })
+
+const grades = [88, 94, 71,99, 53, 77]
+
+grades.sort((a, b) => a - b)
+console.log(grades)
