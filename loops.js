@@ -133,3 +133,21 @@ const grades = [88, 94, 71,99, 53, 77]
 
 grades.sort((a, b) => a - b)
 console.log(grades)
+
+const students = [
+  { name: 'Sean' , grade: 75},
+  { name: 'Pookie' , grade: 93},  
+  { name: 'Samantha' , grade: 90},  
+  { name: 'Michael' , grade: 94}
+]
+
+
+students.sort((a,b) => b.grade - a.grade)
+console.log(students)
+console.log(students.reverse())
+
+
+const overNinety = students.find((students) => students.grade > 90)
+
+const variableForfunctioin = students.find((students) => students.grade > 90)
+console.log(overNinety)
