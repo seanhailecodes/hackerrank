@@ -82,3 +82,49 @@ for(var i = 0; i < arrLength; i++){
 console.log(negativeInt)
 console.log(positiveInt)
 console.log(zero)x encodeURIComponent
+
+
+// fuckin around to learn a bit
+// function testLength(){
+// for(var i = 0; i < arr2.length; i++)
+//  if (arr[i] > 0){
+//    return arr + arr2
+//  }
+// }
+
+// console.log(testLength(arr, arr2))
+
+function ratio(arr) {
+  for(var i = 0; i < arrLength; i++){
+   if (arr[i] < 0){
+     negativeInt++
+   }
+   else if (arr[i]> 0) {
+     positiveInt++
+     console.log(positiveInt)
+  
+   }
+   else (i ==  (len -1)) {
+   var  zeroInt = len - (negativeInt+positiveInt)
+    console.log(zeroInt)
+   }
+  }
+
+
+  //Arrays work
+
+
+const pets = [ 'dog', 'cat', 'rabbit' , 'hamster ']
+
+const petsLength = pets.length
+
+// pets.forEach((e) => console.log(e))
+
+const scores = [ 50,60,70,80,90,100]
+
+const logScore = (scores) => console.log('Score Over 65', scores)
+
+scores.forEach((e) => {
+ if (e > 65)
+ logScore(e)
+})
