@@ -151,3 +151,19 @@ const overNinety = students.find((students) => students.grade > 90)
 
 const variableForfunctioin = students.find((students) => students.grade > 90)
 console.log(overNinety)
+
+
+//includes arr.includes()
+const professions = ['lawyer', 'doctor', 'developer', 'olympic athlete', 'rapper']
+
+const rapperIncluded = professions.includes('rapper')
+
+console.log(rapperIncluded)
+
+
+const states = ['California', 'New York', 'New Jersey', 'Alaska', 'New Mexico', 'Montana']
+
+const someStates = states.some((states) => states.startsWith('New'))
+const everyStates = states.every((states) => states.startsWith('New'))
+console.log(someStates)
+console.log(everyStates)
