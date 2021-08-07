@@ -163,7 +163,24 @@ console.log(rapperIncluded)
 
 const states = ['California', 'New York', 'New Jersey', 'Alaska', 'New Mexico', 'Montana']
 
+
 const someStates = states.some((states) => states.startsWith('New'))
+
 const everyStates = states.every((states) => states.startsWith('New'))
+
 console.log(someStates)
 console.log(everyStates)
+
+const bowlingScores = [154, 204, 300, 184, 286]
+
+let score = bowlingScores.includes(300)
+
+console.log('Perfect score',score)
+
+let someScore = bowlingScores.some((bowlingScores) => (bowlingScores < 150))
+
+console.log('Scores under 300', someScore)
+
+let isScoreEven = bowlingScores.every((bowlingScores) => { bowlingScores % 2 === 0 })
+
+console.log('Is every score even', isScoreEven)
