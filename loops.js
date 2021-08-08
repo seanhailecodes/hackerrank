@@ -184,3 +184,35 @@ console.log('Scores under 300', someScore)
 let isScoreEven = bowlingScores.every((bowlingScores) => { bowlingScores % 2 === 0 })
 
 console.log('Is every score even', isScoreEven)
+
+const drinks = [ 'coffee', 'tea', 'soda', 'water']
+
+
+drinks.shift() //moves it from the front
+drinks.unshift('beer') //add it to the front
+
+console.log(drinks)
+
+const foods = [
+  { food: 'raspberries', type: 'fruit'},
+  { food: 'orange', type: 'fruit'},
+  { food: 'broccoli', type: 'vegetable'},
+  { food: 'quinoa', type: 'grain'}
+  ]
+  
+  const blackBeans = { food: 'black beans', type: 'legume'}
+  const chiaSeeds =  { food: 'chia seeds', type: 'seed'}
+    
+    
+  foods.pop()
+    // console.log(foods)
+  
+  foods.shift()
+      // console.log(foods)
+  
+  foods.unshift(blackBeans)
+    // console.log(foods)
+  
+  foods.push(chiaSeeds)
+    console.log(foods)
+  
