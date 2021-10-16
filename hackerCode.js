@@ -164,9 +164,11 @@ function countingValleys(n, s) {
 //loops day 5 hackerrank
 
 let n = 3 
+let i = 1
+var result
 
-let multiply = function (n){
-    for (let i = 0; i < 10; i++) {
-console.log(n + ' x ' + i + ' = ' + temp)
-}
+while (i <= 10) {
+  result = i * n
+  console.log(n + ' x ' + i + ' = ' + result)
+  i++
 }
